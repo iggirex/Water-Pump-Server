@@ -20,8 +20,6 @@ app.get('/', (request, response) => {
   })
 })
 
-// app.listen(3000)
-
 app.listen(3000, (err) => {
   if (err) {
     return console.log('something bad happened', err)
