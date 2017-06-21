@@ -20,7 +20,7 @@ app.get('/', (request, response) => {
   })
 })
 
-app.listen(3000, (err) => {
+app.listen(process.env.PORT || 3000, (err) => {
   if (err) {
     return console.log('something bad happened', err)
   }
